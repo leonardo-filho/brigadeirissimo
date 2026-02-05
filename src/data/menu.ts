@@ -28,9 +28,10 @@ export const menuData = {
     ]
   },
   info: [
-    "Docinhos de 15g (cento/meio) ou 17g (25 unid).",
-    "Encomendas com no mínimo 48h de antecedência.",
-    "Confirmação mediante 50% do valor.",
-    "Caixas de cento acompanham pétalas."
+    "Tamanhos: 15g (cento), 17g (25 unid) ou 20g (unidade).",
+    "Personalização (tema/cores) inclusa no valor!",
+    "Retirada no local ou envio via Uber Flash (taxa a combinar).",
+    "Encomendas: Min. 48h de antecedência (>25 unidades).",
+    "Confirmação mediante 50% de sinal (não reembolsável)."
   ]
 };
