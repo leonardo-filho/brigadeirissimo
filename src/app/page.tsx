@@ -68,6 +68,11 @@ const MenuSection = ({ data, imageSrc, imageAlt }: { data: typeof menuData.tradi
 // --- Componente Principal ---
 
 export default function Home() {
+  // Configuração do Link do WhatsApp
+  const phoneNumber = "5591992342017";
+  const message = "Olá! gostaria de fazer um pedido de doces do brigadeirissimo";
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
   return (
     <main className="min-h-screen overflow-x-hidden bg-cream-50">
       
@@ -95,7 +100,7 @@ export default function Home() {
           {/* LOGO */}
           <div className="relative w-52 h-52 md:w-72 md:h-72 mb-8 drop-shadow-2xl">
             <Image 
-              src="/images/logo.png" // <--- LOGO (Verifique se é .png ou .jpeg)
+              src="/images/logo.png" // <--- LOGO
               alt="Logo Brigadeiríssimo"
               fill
               className="object-contain filter drop-shadow-lg"
@@ -121,7 +126,7 @@ export default function Home() {
             Ver Cardápio
           </a>
           <a 
-            href="https://wa.me/5591992342017" 
+            href={whatsappLink} // <--- Link atualizado aqui
             target="_blank"
             className="bg-green-500 hover:bg-green-600 text-white px-10 py-4 rounded-full font-bold transition shadow-xl flex items-center justify-center gap-3 transform hover:scale-105 border-2 border-green-400"
           >
@@ -239,7 +244,7 @@ export default function Home() {
             <a href="https://instagram.com/brigadeiriss1mo" target="_blank" className="p-4 bg-cocoa-900 rounded-full hover:bg-gradient-to-tr hover:from-yellow-500 hover:via-pink-500 hover:to-purple-500 text-white transition duration-300 transform hover:-translate-y-2 shadow-lg">
               <FaInstagram size={32} />
             </a>
-            <a href="https://wa.me/5591992342017" target="_blank" className="p-4 bg-cocoa-900 rounded-full hover:bg-green-500 text-white transition duration-300 transform hover:-translate-y-2 shadow-lg">
+            <a href={whatsappLink} target="_blank" className="p-4 bg-cocoa-900 rounded-full hover:bg-green-500 text-white transition duration-300 transform hover:-translate-y-2 shadow-lg">
               <FaWhatsapp size={32} />
             </a>
           </div>
