@@ -21,6 +21,9 @@ const caveat = Caveat({ // 2. Configure Caveat
 export const metadata: Metadata = {
   title: "Brigadeiríssimo",
   description: "Os melhores doces de Belém",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
