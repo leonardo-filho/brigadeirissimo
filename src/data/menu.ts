@@ -6,10 +6,8 @@ export const menuData = {
       "Napolitano", "Beijinho", "Nesquik"
     ],
     prices: [
-      { item: "Cento (até 4 sabores)", price: "R$ 170,00" },
-      { item: "Meio cento (até 2 sabores)", price: "R$ 90,00" },
-      { item: "25 unidades", price: "R$ 55,00" },
-      { item: "Unidade", price: "R$ 3,00" }
+      { item: "Cento (até 4 sabores)", price: "R$ 180,00" },
+      { item: "Meio cento (até 2 sabores)", price: "R$ 100,00" },
     ]
   },
   especiais: {
@@ -21,17 +19,16 @@ export const menuData = {
       "Ovomaltine", "Café", "Paçoca"
     ],
     prices: [
-      { item: "Cento (até 4 sabores)", price: "R$ 200,00" },
-      { item: "Meio cento (até 2 sabores)", price: "R$ 110,00" },
-      { item: "25 unidades", price: "R$ 70,00" },
-      { item: "Unidade", price: "R$ 3,50" }
+      { item: "Cento (até 4 sabores)", price: "R$ 220,00" },
+      { item: "Meio cento (até 2 sabores)", price: "R$ 120,00" },
     ]
   },
   info: [
-    "Tamanhos: 15g (cento), 17g (25 unid) ou 20g (unidade).",
+    "Tamanhos: 15g (cento)",
     "Personalização (tema/cores) inclusa no valor!",
     "Retirada no local ou envio via Uber Flash (taxa a combinar).",
-    "Encomendas: Min. 48h de antecedência (>25 unidades).",
-    "Confirmação mediante 50% de sinal (não reembolsável)."
+    "Encomendas: Min. 72h de antecedência.",
+    "Confirmação mediante 50% de sinal (não reembolsável).",
+    "Cento com aplicação em pasta americana é R$ 250,00."
   ]
 };
